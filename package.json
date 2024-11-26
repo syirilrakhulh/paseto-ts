@@ -20,7 +20,8 @@
     "watch": "tsc -w -p tsconfig.esm.json",
     "test": "tsm node_modules/uvu/bin.js tests",
     "test:coverage": "c8 --include=src npm test",
-    "test:report": "c8 report --reporter=text-lcov > coverage.lcov"
+    "test:report": "c8 report --reporter=text-lcov > coverage.lcov",
+    "prepare": "npm run build"
   },
   "homepage": "https://github.com/auth70/paseto-ts",
   "repository": "github:auth70/paseto-ts",
